@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- daisy -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script>
+          tailwind.config = {
+               theme: {
+                    extend: {
+                         colors: {
+                              clifford: '#da373d',
+                              "webbase": '#BEE1E6',
+                         }
+                    }
+               }
+          }
+     </script>
+     <style>
+          .f-pop {
+               font-family: "Poppins", sans-serif;
+          }
+     </style>
+     <title>Analytics | Web</title>
+</head>
+
+
+<body>
+     <header class="md:container md:mx-auto my-4">
+          <!-- Navbar -->
+          <nav class="f-pop">
+               <div class="navbar">
+                    <div class="navbar-start">
+                         <div class="dropdown">
+                              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                             d="M4 6h16M4 12h8m-8 6h16" />
+                                   </svg>
+                              </div>
+                              <ul tabindex="0"
+                                   class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-slate-300">
+                                   <li><a class="hover:bg-[#bee1e6]">Home</a></li>
+                                   <li><a class="hover:bg-[#bee1e6]">Shop</a></li>
+                                   <li><a class="hover:bg-[#bee1e6]">About</a></li>
+                                   <li><a class="hover:bg-[#bee1e6]">Blogs</a></li>
+                                   <li><a class="hover:bg-[#bee1e6]">Pages</a></li>
+                              </ul>
+                         </div>
+                         <a class="text-xl">
+                              <img src="images/logo.png" alt="logo">
+                         </a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex ">
+                         <ul class="menu menu-horizontal px-1">
+                              <li class="hover:bg-[#bee1e6]"><a>Home</a></li>
+                              <li><a class="hover:bg-[#bee1e6]">Shop</a></li>
+                              <li><a class="hover:bg-[#bee1e6]">About</a></li>
+                              <li><a class="hover:bg-[#bee1e6]">Blogs</a></li>
+                              <li><a class="hover:bg-[#bee1e6]">Pages</a></li>
+                         </ul>
+                    </div>
+                    <div class="navbar-end">
+                         <a class="btn bg-[#bee1e6] hover:bg-transparent">Get Started</a>
+                    </div>
+               </div>
+          </nav>
+     </header>
+     <main>
+          <!-- hero section  -->
+          <section class="bg-[#bee1e6]">
+               <div class="hero min-h-screen container mx-auto">
+                    <div class="hero-content flex-col lg:flex-row-reverse justify-between gap-8">
+                         <div>
+                              <img src="images/hero.png" alt="hero" class="max-w-sm rounded-md" />
+
+                         </div>
+                         <div class="my-4">
+                              <h1 class="bg-blue-900 text-white rounded-lg font-bold text-sm w-max p-5">Digital
+                                   Marketing Agency</h1>
+                              <h1 class="text-5xl font-bold my-5">Advanced analytics to <br> grow your business</h1>
+                              <p class="py-6 ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                                   excepturi
+                                   exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                              <button
+                                   class="btn bg-blue-900 text-white font-bold my-5 hover:bg-transparent hover:border-cyan-400 hover:text-black">Get
+                                   Started</button>
+                              <button class="btn btn-outline  ml-7 hover:bg-blue-900 font-bold my-5">How it
+                                   works!</button>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <!-- logo section  -->
+          <section class="container mx-auto grid lg:grid-cols-4 md:grid-cols-1 my-20 md:my-8 gap-9">
+               <div class=""><img class="" src="images/Rectangle 11.png" alt=""></div>
+               <div><img src="images/Rectangle 12.png" alt=""></div>
+               <div><img src="images/Rectangle 13.png" alt=""></div>
+               <div><img src="images/Rectangle 14.png" alt=""></div>
+               <div class="lg:mx-10 lg:my-10"><img class="" src="images/Rectangle 15.png" alt=""></div>
+               <div class="lg:mx-10 lg:my-10"><img src="images/Rectangle 16.png" alt=""></div>
+               <div class="lg:mx-10 lg:my-10"><img src="images/Rectangle 17.png" alt=""></div>
+          </section>
+
+          <!-- idea section  -->
+          <section class="my-20">
+               <div class="hero min-h-screen">
+                    <div class="hero-content flex-col lg:flex-row justify-between">
+                         <div class="div relative">
+                              <div class="lg:w-2/4 md:w-1/4">
+                                   <img src="images/Rectangle 18.png" class="rounded-lg" />
+                              </div>
+                              <div class="hidden lg:w-2/4 md:w-1/4 lg:block">
+                                   <img src="images/falling-stock-exchange-statistics-hologram-screen 1.png" alt=""
+                                        class="lg:absolute top-1/2 left-1/4 rounded-2xl ">
+
+                              </div>
+                         </div>
+
+                         <div class="md:w-2/4">
+                              <h1 class="bg-blue-900 text-white rounded-lg font-bold text-sm w-max p-5 mb-8">Digital
+                                   Marketing Agency</h1>
+                              <h1 class="font-bold text-2xl md:text-4xl">
+                                   Fresh Ideas for your business design.
+                              </h1>
+                              <p class="py-6 text-base">Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                                   assumenda
+                                   excepturi
+                                   exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+
+                              <div class="flex gap-4">
+                                   <div><img src="images/Ellipse 1.png" alt="" class="w-[230px] lg:w-full"></div>
+                                   <div>
+                                        <h1 class="font-bold text-black text-sm">Graddy</h1>
+                                        <p class="text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                             Consequatur sint
+                                             totam nemo harum nisi obcaecati, hic deleniti fuga mollitia voluptatum,
+                                             cumque amet ipsum laboriosam, tenetur consequuntur dolor eos aliquam
+                                             doloribus.</p>
+                                   </div>
+                              </div>
+                              <div class="flex gap-4">
+                                   <div><img src="images/Ellipse 2.png" alt="" class="w-[230px] lg:w-full"></div>
+                                   <div>
+                                        <h1 class="font-bold text-black text-sm">Hardic</h1>
+                                        <p class="text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                             Consequatur sint
+                                             totam nemo harum nisi obcaecati, hic deleniti fuga mollitia voluptatum,
+                                             cumque amet ipsum laboriosam, tenetur consequuntur dolor eos aliquam
+                                             doloribus.</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <!-- Review Section -->
+          <section class="md:container md:mx-auto mx-10">
+               <div class="text-center">
+                    <h1 class="font-bold text-4xl my-4 md:text-5xl">Fresh Ideas for your business <br> design.</h1>
+                    <p class="text-base md:text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                         sint. Velit officia consequat duis enim velit
+                         mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+               </div>
+               <div class="my-8 md:flex md:flex-row">
+                    <div class="flex gap-6 space-y-5">
+                         <div><img src="images/Ellipse 3.png" alt="" class="w-[200px]"></div>
+                         <div class="my-4">
+                              <h1 class="font-bold text-black text-sm">Graddy</h1>
+                              <p class="text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                   Consequatur sint
+                                   totam nemo harum nisi obcaecati, hic deleniti fuga mollitia voluptatum,
+                                   cumque amet ipsum laboriosam, tenetur consequuntur dolor eos aliquam
+                                   doloribus.</p>
+                         </div>
+                    </div>
+                    <div class="flex gap-6 space-y-5">
+                         <div><img src="images/Ellipse 4.png" alt="" class="w-[200px]"></div>
+                         <div class="my-4">
+                              <h1 class="font-bold text-black text-sm">Hardic</h1>
+                              <p class="text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                   Consequatur sint
+                                   totam nemo harum nisi obcaecati, hic deleniti fuga mollitia voluptatum,
+                                   cumque amet ipsum laboriosam, tenetur consequuntur dolor eos aliquam
+                                   doloribus.</p>
+                         </div>
+                    </div>
+                    <div class="flex gap-6 space-y-5">
+                         <div><img src="images/Ellipse 5.png" alt="" class="w-[200px]"></div>
+                         <div class="my-4">
+                              <h1 class="font-bold text-black text-sm">Hardic</h1>
+                              <p class="text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                   Consequatur sint
+                                   totam nemo harum nisi obcaecati, hic deleniti fuga mollitia voluptatum,
+                                   cumque amet ipsum laboriosam, tenetur consequuntur dolor eos aliquam
+                                   doloribus.</p>
+                         </div>
+                    </div>
+
+               </div>
+          </section>
+          <!-- Leading Company Section  -->
+          <section>
+               <section class="bg-[#bee1e6] my-20 drop-shadow-lg">
+                    <div class="hero min-h-screen md:container md:mx-auto">
+                         <div class="hero-content flex-col lg:flex-row-reverse ">
+                              <div class="relative w-full lg:w-1/2">
+                                   <div>
+                                        <img src="images/Rectangle 25.png" class="rounded-lg" />
+
+                                   </div>
+                                   <div class="hidden lg:w-2/4 md:w-1/4 lg:block">
+                                        <img src="images/Rectangle 26.png" alt=""
+                                             class="lg:absolute top-3/4 left-1/2 rounded-2xl ">
+
+                                   </div>
+                              </div>
+                              <div class="m-6 lg:w-1/2 ml-4 mr-16">
+                                   <h1 class="bg-blue-900 text-white rounded-lg font-bold text-sm w-max p-5 mt-10">Top
+                                        Leading
+                                        Company</h1>
+                                   <h1 class="text-3xl md:text-5xl font-bold my-5 leading-normal">Fresh Ideas for your
+                                        business
+                                        design, Top digital marketing service company</h1>
+                                   <p class="py-6 ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                                        excepturi
+                                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                   </p>
+                                   <div class="flex gap-5 flex-col lg:flex-row md:flex-row">
+                                        <div class="">
+                                             <div class="flex gap-5 py-5">
+                                                  <img src="images/Ellipse 3-1.png" alt="">
+                                                  <h1 class="font-bold">Guy Hawk</h1>
+                                             </div>
+                                             <p>
+                                                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                                  sint. Velit officia consequat duis enim velit
+                                                  mollit. Exercitation.
+                                             </p>
+                                        </div>
+                                        <div class="">
+                                             <div class="flex gap-5 py-5">
+                                                  <img src="images/Ellipse 3-2.png" alt="">
+                                                  <h1 class="font-bold">James Robertson</h1>
+                                             </div>
+                                             <p>
+                                                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                                  sint. Velit officia consequat duis enim velit
+                                                  mollit. Exercitation.
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+
+
+          </section>
+          <!-- FAQ Section -->
+          <section class="my20 md:container md:mx-auto">
+               <div class="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+
+                    <div class="img">
+                         <h1 class="f-pop font-bold text-2xl md:text-3xl lg:text-4xl text-center">
+                              Frequently Asked Questions?
+                         </h1>
+                         <img src="images/faq.png" alt="faq">
+                    </div>
+
+                    <div class="faq w-full md:w-1/2 lg:w1/2">
+                         <div class="collapse collapse-arrow bg-[#bee1e6] my-6 p-8">
+                              <input type="radio" name="my-accordion-2" checked="checked" />
+                              <div class="collapse-title text-xl font-medium">
+                                   <h1 class="font-bold f-pop">
+
+                                        What digital marketing services does your company offer?
+                                   </h1>
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="f-pop">Explore the comprehensive range of digital marketing <br> services
+                                        we
+                                        provide
+                                        to
+                                        boost your online presence and reach your
+                                        target audience effectively.</p>
+                              </div>
+                         </div>
+                         <div class="collapse collapse-arrow bg-[#bee1e6] my-6 p-6">
+                              <input type="radio" name="my-accordion-2" />
+                              <div class="collapse-title text-xl font-medium">
+                                   <h1 class="font-bold f-pop">
+                                        How can digital marketing benefit my business? </h1>
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="f-pop">Discover the advantages of digital marketing, from increased brand
+                                        visibility
+                                        and lead generation to improved customer
+                                        engagement and measurable results.</p>
+                              </div>
+                         </div>
+                         <div class="collapse collapse-arrow bg-[#bee1e6] my-6 p-6">
+                              <input type="radio" name="my-accordion-2" />
+                              <div class="collapse-title text-xl font-medium">
+                                   <h1 class="font-bold f-pop">What sets your digital marketing services apart from
+                                        competitors?
+                                   </h1>
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="f-pop">Learn about the unique strategies, cutting-edge technologies, and
+                                        personalized
+                                        approaches that differentiate our digital
+                                        marketing services in a competitive landscape.</p>
+                              </div>
+                         </div>
+                         <div class="collapse collapse-arrow bg-[#bee1e6] my-6 p-6">
+                              <input type="radio" name="my-accordion-2" />
+                              <div class="collapse-title text-xl font-medium">
+                                   <h1 class="font-bold f-pop">What type of businesses do you work with?
+                                   </h1>
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="f-pop">Explore the diversity of businesses we cater to, from startups and
+                                        small
+                                        businesses to
+                                        <br> large enterprises, and how our
+                                        strategies adapt to different scales and industries.
+                                   </p>
+                              </div>
+                         </div>
+                         <div class="collapse collapse-arrow bg-[#bee1e6] my-6 p-6">
+                              <input type="radio" name="my-accordion-2" />
+                              <div class="collapse-title text-xl font-medium">
+                                   <h1 class="font-bold f-pop">What social media platforms do you focus on for
+                                        marketing?
+                                   </h1>
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="f-pop">Learn about our targeted social media strategies, designed to
+                                        leverage
+                                        the
+                                        strengths of platforms like Facebook,
+                                        Instagram, Twitter, LinkedIn, and more, to enhance your brand presence.</p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+          </section>
+
+     </main>
+     <!-- footer section  -->
+<footer class="footer p-10 bg-[#bee1e6] text-base-content mt-16">
+     <aside>
+        <img src="images/logo.png" alt="logo">
+          <p>Digitals Media Ltd.<br />Providing reliable tech since 1992</p>
+     </aside>
+     <nav>
+          <header class="footer-title">Services</header>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+     </nav>
+     <nav>
+          <header class="footer-title">Company</header>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+     </nav>
+     <nav class="flex flex-col cursor-pointer">
+          <a href="#">Socials</a>
+          <img src="images/facebook.svg" alt="" srcset="">
+          <img src="images/instagram.svg" alt="" srcset="">
+          <img src="images/github.svg" alt="" srcset="">
+          <img src="images/twitter.svg" alt="" srcset="">
+     </nav>
+</footer>
+
+     <!-- script  -->
+     <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+
+</html>
